@@ -1,0 +1,99 @@
+body{
+	padding: 0px 10px 0px 10px;
+}
+.navbar{
+	margin-bottom:0px;
+}
+.listPanel{
+	width: 30%;
+	float: left;
+}
+.listBody{
+	padding:0px;
+	height: 475px;
+	border: #ccc solid 1px;
+}
+.listUl{
+	margin-bottom:0px;
+}
+.listLi{
+	height: 50px;
+}
+.photo{
+	margin-top: -7px;
+	width: 42px;
+	height: 42px;
+	border-radius: 10px;
+	margin-right: 10px;
+	margin-left: -5px;
+}
+.chatPanel{
+	width: 70%;
+	float: right;
+	border: #ccc solid 1px;
+}
+.chatBody{
+	border: #ccc solid 1px;
+	height: 475px;
+
+}
+.msgBody{
+	height: 365px;
+	overflow: auto;
+}
+.sigleMsg{
+	margin-top: 20px;
+	padding-top: 10px;
+}
+.chat-box {
+	position: relative;
+	border: 1px solid #6b6b6b;
+	border-radius: 5px;
+	box-shadow: 1px 1px 4px #6b6b6b;
+	width: 80%;
+	margin-left: 60px;
+	margin-top: -50px;
+}
+.chat-box p {
+	margin: 0;
+	padding: 10px;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+
+}
+.chat-box:before { 
+	position: absolute; 
+	display: inline-block; 
+	border-top: 10px solid transparent; 
+	border-right: 10px solid #6b6b6b; 
+	border-bottom: 10px solid transparent; 
+	border-right-color: #6b6b6b; 
+	left: -10px; 
+	top: 20px; 
+	content: ''; 
+} 
+/* 背景阴影*/ 
+.chat-box:after { 
+	position: absolute; 
+	display: inline-block; 
+	border-top: 9px solid transparent; 
+	border-right: 9px solid #fff; 
+	border-bottom: 9px solid transparent; 
+	left: -8px; 
+	top: 21px; 
+	content: ''; 
+} 
+.typeBody{
+	border-top: 1px solid #e3e3e3;
+	padding: 15px 15px;
+	margin: 7px 0 0;
+}
+.badge{
+	background-color: red;
+}
+.userInfo{
+	position:fixed;
+	right: 14%;
+	margin-top: 11px;
+	color:#FF00FF;
+}
